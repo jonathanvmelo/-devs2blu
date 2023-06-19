@@ -21,6 +21,5 @@ class DiretorAposentado extends Diretor {
 
 void main() {
   DiretorAposentado aposentado = DiretorAposentado();
-  
-  aposentado.
+
 }
