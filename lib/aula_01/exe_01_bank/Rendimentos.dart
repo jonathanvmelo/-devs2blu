@@ -1,10 +1,12 @@
-
-
 class Rendimento{
+  double _taxaRendimento;
 
-  // void aplicarRendimentoMensal(){
-  //   double rendimento = this.saldo * (taxaRetornoInvestimento / 100);
-  //   saldo +=rendimento;
-  //   extrato.add(Transacao(TipoTransacao.rendimentoMensal, rendimento));
-  // }
+  Rendimento(this._taxaRendimento);
+
+  double get taxaRendimento => _taxaRendimento;
+
+  calcularRendimentoDiario(double saldo)=> saldo * (taxaRendimento / 100) / 30;
+
+  calcularRendimentoMensal(double saldo)=> saldo * (taxaRendimento / 100);
+
 }

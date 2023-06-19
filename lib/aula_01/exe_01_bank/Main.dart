@@ -7,8 +7,8 @@ import 'model/Titular.dart';
 void main() {
 
 
-  Titular titular1 = Titular("Aws", "054.655.565", "aws@yahoo.com.br");
-  Titular titular2 = Titular("Google", "044.555.564", "google@yahoo.com.br");
+  Titular titular1 = Titular("Aws", "054.655.565");
+  Titular titular2 = Titular("Google", "044.555.564");
 
   ContaCorrente contaCorrente1 = ContaCorrente(1, 1, titular1);
   ContaPoupanca contaPoupanca1 = ContaPoupanca(2, 1, titular2);
